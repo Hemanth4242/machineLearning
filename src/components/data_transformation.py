@@ -3,6 +3,8 @@ import os
 import sys
 import numpy as np
 import pandas as pd
+sys.path.insert(0,'/Users/apple123/EndToEndMl/machineLearning')
+print(sys.path)
 from dataclasses import dataclass
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
